@@ -1,0 +1,58 @@
+body {
+    margin: auto;
+    width: 960px;
+    background-color: rgb(251, 224, 221);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#cab, footer {
+    background-color: rgb(75, 173, 75);
+    padding: 10px 20px 10px 20px;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+}
+
+#parques {
+    background-color: rgb(99, 70, 125);
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 10px 10px 10px;
+    color: white;
+}
+
+footer {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#parques img {
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+}
+
+#parques article {
+    border-bottom: 1px dashed rgb(16, 177, 230);
+    padding-bottom: 10px;
+}
+
+#parques p{
+    color: cyan;
+    text-align: justify;
+}
+
+h1 {
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+#parques h1, #parques h2 {
+    color: white;
+}
+
+.fix {
+    clear: both;
+}
