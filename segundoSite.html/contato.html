@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cab">
+        <img src="/cursoHTML5/pg2/logo.jpg" alt="logo">
+        <div id="social">
+            <img src="/cursoHTML5/pg2/facebook.png" alt="facebook">
+            <img src="/cursoHTML5/pg2/twitter.png" alt="twitter">
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="modelo.html" target="_self">Home</a></li>
+                <li><a href="modulos.html" target="_self">Módulos</a></li>
+                <li><a href="contato.html" target="_self">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br class="fixFloat">
+
+    <section id="contato">
+        <form name="fContato" method="post" action="#">
+            <label for="">Nome:</label>
+            <input type="text" mathlength="50" size="60" name="fNome" autofocus required id="">
+            <label for="">Telefone de contato:</label>
+            <input type="tel" mathlength="15" size="20" name="fFone" placeholder="(xx) xxxx-xxxx" required id="">
+            <label for="">Email:</label>
+            <input type="email" maxlength="50" size="60" name="fEmail" required id="">
+            <label for="">Cep:</label>
+            <input type="text" maxlength="10" size="15" name="fCep" placeholder="xxxxx-xxx" pattern="\d{5}-?\d{3}" required id="">
+            <label for="">Módulo pretende iniciar:</label>
+            <input type="number" min="1" max="10" step="1" value="1" name="fModulo" required id="">
+            <label for="">Horário de Início:</label>
+            <input type="time" value="10:00" step="1800" name="fHorario" required id="">
+            <label for="">Cor da sua pasta:</label>
+            <input type="color" value="#008800" name="fCor" required id="">
+            <label for="">Data de nascimento:</label>
+            <input type="date" name="fNasc" required id="">
+
+            <br> <br>
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+
+    </section>
+
+    <br class="fixFloat">
+
+    <footer>
+        <p>Layout - Curso de Inglês</p>
+        <p>Canal Fessor Bruno</p>
+        <p>www.cfbcursos.com.br</p>
+    </footer>
+
+</body>
+</html>
