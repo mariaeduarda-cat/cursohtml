@@ -78,10 +78,31 @@ body {
 
 #banner {
    margin-top: 15px;
+   height: 384px;
+   margin-top: 15px;
+   margin-bottom: 10px;
 }
 
 #banner img {
     width: 960px;
+}
+
+#b1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#b2 {
+    position: relative;
+    left: 0px;
+    top: -388px;
+}
+
+#b3 {
+    position: relative;
+    left: 0px;
+    top: -776px;
 }
 
 #main {
